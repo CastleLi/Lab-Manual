@@ -28,7 +28,7 @@ This work is licensed under a CC Attribution 4.0 license. We expect that more in
 - Be on time. Especially when you are running participants – show up __ minutes early to set everything up. And be on time for your meetings: respect that others have packed days and everyone’s time is valuable.
 
 ## YOUR TITLE or ROLE
-All of the [above](#everyone), plus you can expect me to:
+All of the [above](#everyone), plus you can expect her to:
 - Maintain a vision of where the lab is going
 - Provide the funding necessary to keep the lab going
 - Be available in person and via e-mail on a regular basis, including regular meetings to discuss your research (and anything else you’d like to discuss)
@@ -51,7 +51,7 @@ All of the [above](#everyone), plus you will be expected to:
 - Apply for external funding. If nothing else, this is an extremely valuable experience, and it will release you from your TA-ing responsibilities.
 - Do some soul-searching as to what type of career you want to pursue, e.g., academic jobs that are research-focused or teaching-focused, non-academic jobs like data science or science writing. We can brainstorm ways of making sure you are getting the training that you need.
 - Work with a team of undergraduate students. This will speed up data collection and give you some experience with managing and mentoring a team.
-- Stay up-to-date (and keep me up-to-date) on any deadlines that you need to meet to fulfill departmental requirements.
+- Stay up-to-date (and keep up-to-date) on any deadlines that you need to meet to fulfill departmental requirements.
 
 ## Lab managers
 All of the [above](#everyone), plus you will be expected to:
@@ -112,8 +112,8 @@ Authorship will be discussed prior to the beginning of a new project, so that ex
 If a student or post-doc collects a dataset but does not completely analyze it or write it up within 3 years after the end of data collection, Dr. Leary will re-assign the project (if appropriate) to another person to expedite publication. If a student or post-doc voluntarily relinquishes their rights to the project prior to the 3-year window, Dr. Leary will also re-assign the project to another individual. This policy is here to prevent data (especially expensive data, e.g., fMRI) from remaining unpublished, but is meant to give priority to the person who collected the data initially.
 ## Human subjects research
 Adherence to approved IRB protocols is *essential*, and non-adherence can lead to severe consequences for the entire lab. **All lab members must read and comply with the IRB consent form and research summary for any project that they are working on.** If you are not on the IRB, you cannot run participants, look at the data, analyze the data, or be in any way involved with the project. 
-Lab members must also complete the CITI training and save their certificate. To be added to an existing IRB, talk to the lab manager and present them with your CITI certificate before you can work with human subjects. If there are any questions about the protocols, or if you're not sure whether we have IRB approval to run your study, please ask the lab manager or me for clarification. If necessary, the lab manager can file an amendment to an existing protocol or create a new protocol.
-If you encounter any problems in the course of doing research that results in a negative outcome for the participant (e.g., if a participant becomes ill or upset, if there is an accident with the equipment, if there is a breach of confidentiality, etc), you should immediately seek assistance from me or the lab manager. If Dr. Leary am not around, you must notify me and the lab manager *within 24 hours*, preferably as soon as possible. In some cases, we may need to report this information to the IRB and/or our funding agencies.
+Lab members must also complete the CITI training and save their certificate. To be added to an existing IRB, talk to the lab manager and present them with your CITI certificate before you can work with human subjects. If there are any questions about the protocols, or if you're not sure whether we have IRB approval to run your study, please ask the lab manager or Dr. Leary for clarification. If necessary, the lab manager can file an amendment to an existing protocol or create a new protocol.
+If you encounter any problems in the course of doing research that results in a negative outcome for the participant (e.g., if a participant becomes ill or upset, if there is an accident with the equipment, if there is a breach of confidentiality, etc), you should immediately seek assistance from Dr. Leary or the lab manager. If Dr. Leary am not around, you must notify Dr. Leary and the lab manager *within 24 hours*, preferably as soon as possible. In some cases, we may need to report this information to the IRB and/or our funding agencies.
 
 # Lab Resources
 ## Slack
@@ -160,11 +160,11 @@ Your project folders should typically look something like this:
   - contains a folder for raw data - always keep a copy of the raw (i.e., unprocessed) data & keep it separate from the copy that you're using in your pipeline
   - processed data used in following steps – should be labeled clearly
   - this folder also contains a file documenting demographic & other summary info
-- `ProjectName/Results
+- `ProjectName/Results`
  - contains folders or files of each type of results, e.g. report, summary
-- `ProjectName/Program
+- `ProjectName/Program`
  - contains folders for code
-- `ProjectName/Output
+- `ProjectName/Output`
  - contains the outputs of program
 You are encouraged to use an organization scheme like this one. When you archive the dataset, you will be required to format it like this (or something similarly transparent in its organization), so might as well start that way. 
 
@@ -172,7 +172,7 @@ You are encouraged to use an organization scheme like this one. When you archive
 Before you leave the lab, you will be required to document and archive any dataset that you have collected. The dataset will be reviewed before you leave. [To add: information about where to archive data]
 
 ### Data sharing
-Not only is data-sharing the right thing to do, we are actually required to do so for any dataset that was funded by the NIH. We will make these datasets publicly available within a year of publishing the first paper from the dataset. You should also be prepared to share any scripts that you used in your published processing & analysis pipeline. Currently, the best option for sharing smaller datasets seems to be the [Open Science Framework](https://osf.io/), the best option for sharing MRI datasets is [OpenFMRI](https://openfmri.org/), and I don't yet know what is the best option for sharing EEG datasets.
+Not only is data-sharing the right thing to do, we are actually required to do so for any dataset that was funded by the NIH. We will make these datasets publicly available within a year of publishing the first paper from the dataset. You should also be prepared to share any scripts that you used in your published processing & analysis pipeline. Currently, the best option for sharing smaller datasets seems to be the [Open Science Framework](https://osf.io/), the best option for sharing MRI datasets is [OpenFMRI](https://openfmri.org/).
 
 # Funding
 
@@ -181,3 +181,6 @@ Not only is data-sharing the right thing to do, we are actually required to do s
 ## NIH funding notes
  All research funded by the NIH *must* acknowledge the grant number upon publication. This is essential for documenting that we are turning their money into research findings. We must also submit a yearly progress report describing what we have accomplished. Lab members involved in the research will be asked to contribute to the progress report.
 
+# Undergraduate research
+Undergraduate research assistants play an important role in our lab, and we have a few opportunities for them to earn money or credit for their contributions. Because these opportunities require a certain degree of commitment from both the student and the lab, we generally reserve them for students who have already spent at least one semester volunteering in lab. If this policy would prevent you from being able to work in lab, please talk to Dr. Leary or the lab manager because we want all students to be able to pursue their research interests. In addition to volunteering in lab, other research opportunities include:
+ 
