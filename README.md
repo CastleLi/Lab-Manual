@@ -1,7 +1,7 @@
 # Introduction
 Welcome to the LAB NAME Lab manual. This manual was inspired by other similar works, and borrows heavily from them (e.g., [this one](https://github.com/alylab/labmanual) and [this one](https://github.com/memobc/memolab-manual)). It is intended to represent my vision for how the lab should function and to complement existing University of Missouri policies (which take precedence). We hope you’ll learn a lot about clinical statistics, develop new skills (coding, data analysis, writing, giving talks), make new friends, and have a great deal of fun throughout the whole process.
 Upon joining the lab, all lab members are required to read the lab manual and sign a form indicating that they have done so.
-This work is licensed under a CC Attribution 4.0 license. I expect that more information will be added and some sections will be revised as the lab grows and develops. If you have any comments or suggestions regarding the contents of this manual, please tell me (mail address).
+This work is licensed under a CC Attribution 4.0 license. We expect that more information will be added and some sections will be revised as the lab grows and develops. If you have any comments or suggestions regarding the contents of this manual, please tell me (mail address).
 
 # Lab member expectations and responsibilities
 ## Everyone
@@ -43,7 +43,7 @@ All of the [above](#everyone), plus you will be expected to:
 - Apply for external funding.
 - Apply for jobs (academic or industry) as soon as you are "ready" and/or by the end of beginning of your fourth year as a postdoc.
 - If you are planning to pursue a non-academic career, treat your postdoctoral research as seriously as you might if you were pursuing an academic career. We can discuss ways of making sure that you are getting the training you need, while still doing excellent research.
-- Remind me (the PI) that different scientific opinions can co-exist in the same lab!
+- Remind the PI that different scientific opinions can co-exist in the same lab!
 
 ## Graduate students
 All of the [above](#everyone), plus you will be expected to:
@@ -88,48 +88,96 @@ All of the [above](#everyone), plus you will be expected to:
 # Code of conduct
 ## General
 Many topics were covered already in the [Lab member expectations & responsibilities](#lab-member-expectations-and-responsibilities) section.
-
 **In addition:**
-
 All members of the lab, along with visitors, are expected to agree with the following code of conduct. We will enforce this code as needed. We expect cooperation from all members to help ensuring a safe environment for everybody. Please also see the University of Missouri [NONDISCRIMINATION POLICY]( https://missouri.edu/eeo-aa).
-
-### The Quick Version
-
-The lab is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery are generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.
-
-### The Less Quick Version
-Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
-
+The lab is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery are generally not appropriate for any lab venue, including lab meetings, presentations, or discussions. Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
 Members asked to stop any harassing behavior are expected to comply immediately.
-
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Maureen Ritchey immediately. If Maureen is the cause of your concern, then please reach out to the department chair or another trusted departmental member who can assist.
-
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Emily Leary immediately. If Dr. Leary is the cause of your concern, then please reach out to the department chair or another trusted departmental member who can assist.
 We expect members to follow these guidelines at any lab-related event.
-
 >This section was adapted from: [code of conduct](http://ivory.idyll.org/lab/coc.html). Original source and credit: http://2012.jsconf.us/#/about & The Ada Initiative. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 
 ## Scientific integrity
 ### Reproducible research
-Reproducible research is research that can be exactly reproduced. This is related to replicability, in that it has to do with your ability to get the same results again, but it refers specifically to getting the same results given the *same set of data*. I expect that all of our research will be, at minimum, reproducible (I hope that it will also be replicable).
-
-Conducting reproducible research is more difficult than it sounds, because it requires that you are organized and possess sufficient foresight to document each step of your research process. There are two main things you can do to improve the reproducibility of your research: 1) extensive note-taking (i.e., as much as you can manage) and 2) programming workflows with version control.
-
-Programming workflows help with reproducibility because they take some of the human element out, and in an ideal scenario, you are left with a script or series of scripts that takes data from raw form to final product. Programming alone is not enough, though, because people can easily forget which script changes they made and when. Therefore, all projects that involve programming of any kind (so basically, all projects) must use some form of version control. I strongly recommend git in combination with GitHub (see below), unless you have a pre-existing workflow. This is a hard requirement because a) it is the only way to definitively track the evolution of methods/files over time, b) it allows for easier detection of bugs, c) it facilitates code sharing, and d) it has nice side effects for workflow organization (e.g., thinking in terms of commits, branches, issues). Points a, b, and c are directly relevant to the mission of conducting reproducible research.
-
-### Experiment pre-analysis plans
-We are currently working out a system for publishing pre-analysis plans for our studies. Stay tuned.
+Reproducible research is research that can be exactly reproduced given the *same* raw data. It is an *essential* part of science, and an expectation for all projects in the lab. Reproducibility is related to replicability, which refers to whether your results can be obtained again with a *different* data set. We expect that all of our research will be replicable, or, at least reproducible.
+For results to be reproducible, it requires that you are organized and possess sufficient foresight to document each step of your research process. There are two main things you can do to improve the reproducibility of your research:
+- Extensive note-taking. You will need extensive notes on each step of your analysis pipeline, explaining how you did things every step of the way (and the order that you did things), from any pre-processing of the data, to running models, to statistical tests. Your code should also be commented, and commented clearly. Comment your code so that every step is understandable by an outsider. 
+- Programming workflows with version control. It is highly encouraged that you use some form of version control (e.g., Git in combination with GitHub) to keep track of what code changes you made and when you made them, as well as sharing code with others.
 
 ### Authorship
 We will follow APA guidelines with respect to authorship:
-
 >"Authorship credit should reflect the individual's contribution to the study. An author is considered anyone involved with initial research design, data collection and analysis, manuscript drafting, and final approval. However, the following do not necessarily qualify for authorship: providing funding or resources, mentorship, or contributing research but not helping with the publication itself. The primary author assumes responsibility for the publication, making sure that the data are accurate, that all deserving authors have been credited, that all authors have given their approval to the final draft; and handles responses to inquiries after the manuscript is published."
-
-Authorship will be discussed prior to the beginning of a new project, so that expectations are clearly defined. However, changes to authorship may occur over the course of a project if a new person becomes involved or if someone is not fulfilling their planned role. In general, I expect that graduate students and postdocs will be first authors on publications on which they are the primary lead, and I will be the last author.
+Authorship will be discussed prior to the beginning of a new project, so that expectations are clearly defined. However, changes to authorship may occur over the course of a project if a new person becomes involved or if someone is not fulfilling their planned role. In general, graduate students and postdocs will be first authors on publications on which they are the primary lead, and Dr. Leary will be the last author.
 
 #### Old projects
-For projects that required significant lab resources (e.g., fMRI or EEG studies or any other study requiring a great deal of time, money, or lab effort): Project "ownership" expires 3 years after data collection has ended (or whenever the original primary lead relinquishes their rights to the study, whichever comes first). At that point, I reserve the right to re-assign the project (or not) as needed to expedite publication. This policy is intended to avoid situations in which a dataset languishes for a long period of time, while still giving publication priority to the original primary lead.
-
+If a student or post-doc collects a dataset but does not completely analyze it or write it up within 3 years after the end of data collection, Dr. Leary will re-assign the project (if appropriate) to another person to expedite publication. If a student or post-doc voluntarily relinquishes their rights to the project prior to the 3-year window, Dr. Leary will also re-assign the project to another individual. This policy is here to prevent data (especially expensive data, e.g., fMRI) from remaining unpublished, but is meant to give priority to the person who collected the data initially.
 ## Human subjects research
-Because we are engaged in human subjects research, it is of the *utmost importance* that we adhere to our approved IRB protocols. **All lab members must read and comply with the IRB consent form and research summary for any project that they are working on.** Lab members must also complete the CITI training and be added to the research personnel list before they can work with human subjects. If there are any questions about the protocols, or if you're not sure whether we have IRB approval to run your study, please ask the lab manager or me for clarification. If necessary, the lab manager can file an amendment to an existing protocol or create a new protocol.
+Adherence to approved IRB protocols is *essential*, and non-adherence can lead to severe consequences for the entire lab. **All lab members must read and comply with the IRB consent form and research summary for any project that they are working on.** If you are not on the IRB, you cannot run participants, look at the data, analyze the data, or be in any way involved with the project. 
+Lab members must also complete the CITI training and save their certificate. To be added to an existing IRB, talk to the lab manager and present them with your CITI certificate before you can work with human subjects. If there are any questions about the protocols, or if you're not sure whether we have IRB approval to run your study, please ask the lab manager or me for clarification. If necessary, the lab manager can file an amendment to an existing protocol or create a new protocol.
+If you encounter any problems in the course of doing research that results in a negative outcome for the participant (e.g., if a participant becomes ill or upset, if there is an accident with the equipment, if there is a breach of confidentiality, etc), you should immediately seek assistance from me or the lab manager. If Dr. Leary am not around, you must notify me and the lab manager *within 24 hours*, preferably as soon as possible. In some cases, we may need to report this information to the IRB and/or our funding agencies.
 
-If you encounter any problems in the course of doing research that results in a negative outcome for the participant (e.g., if a participant becomes ill or upset, if there is an accident with the equipment, if there is a breach of confidentiality, etc), you should immediately seek assistance from me or the lab manager. If I am not around, you must notify me *within 24 hours*, preferably as soon as possible. In some cases, we may need to report this information to the IRB and/or our funding agencies.
+# Lab Resources
+## Slack
+## Lab wiki
+## GitHub
+## Google Drive
+## Google Calendar
+## Email
+## Others
+
+# General policies
+## Hours
+One of the benefits of a career in academic research is that it is typically more flexible than other kinds of jobs. However, you should still treat it like a job. If you are employed for 40 hours a week, you should be working 40 hours a week. This applies to lab staff members (the lab manager and other research assistants) and postdocs. You are not required to work over-time. For graduate students, you are recognized with other demands on your time like classes and TA-ing but still expect to see you in lab, doing research, often. Lab staff members are expected to keep regular office hours (e.g., somewhere in the ballpark of 8-5). Graduate students and postdocs have more flexibility. 
+
+### Your office hours
+
+## Meetings
+### Weekly lab meetings
+Weekly lab meetings will be focused on project presentations and going over new data or methods. Lab meetings will last about 1 hour. If at the end of meeting, we need more time to discuss something, we will either take a break before continuing or schedule another meeting. Lab meeting agendas and notes will be maintained in the `lab meetings` folder on Box. All full-time lab members are expected to attend the weekly lab meeting. All part-time lab members (including undergraduates) are welcome to attend but attendance is not required.
+### Individual meetings
+
+## Deadlines
+It is essential to keep works and deadlines organized. When it comes to deadlines, tell your collaborators **as soon as you know when a deadline is**, and make sure they are aware of it the closer it gets. Don’t be afraid to bug them about it.
+Dr. Leary will expect # WEEK(S)’ notice for reading/ commenting on abstracts, papers, and manuscripts, filling out paperwork, etc, and # WEEK(S)’ notice for letters of recommendation. If you want feedback on research and teaching statements, or other work that requires multiple back-and-forth interactions between you and Dr. Leary before a hard deadline, give her as much time as you can.
+## Presentations
+It is therefore highly encouraged that you seek out opportunities to present your research, whether it is at departmental talk series and events, to other labs at conferences, or to the general public. If you are going to give a presentation (a poster or a talk), be prepared to give a practice presentation to the lab at least one week ahead of time (two weeks or more are advisable for conference presentations, and many weeks ahead of time are advisable for job talks, which require much refining).  Practice talks will help you feel comfortable with your presentation, and will also allow you to get feedback from the lab and implement those changes well in advance of your real presentation.
+Templates for posters will be available, and you can use those as much or as little as you’d like. Some general rules for posters should be followed: minimize text as much as possible (if you wrote a paragraph, you’re doing it wrong), make figures and text large and easy to see at a distance, label your axes, and make sure different colors are easily discriminable. Other than that, go with your own style.
+## Recommendation letters
+Letters of recommendation are one of the many benefits of working in a research lab. You can count on Dr. Leary to write a letter if you have spent at least one year in the lab. (It’s hard to really know someone if they have only been around for a few months.) Exceptions can be made for shorter-term lab members in special circumstances (e.g., new graduate students or postdocs applying for fellowships). 
+To request a letter of recommendation, please adhere to the deadline requirements described above, your current CV and any relevant instructions for the contents of the letter. Your specific aims or a short summary are required if you are applying for a grant. In some but not all cases, you may be asked to draft a letter, which will be revised to be consistent with evaluation. This will ensure that the letter contains all the information you need, and that it is submitted on time.
+
+## Data management
+### Storing active datasets (need to complete)
+In general, data will be stored in one of three places:
+- **Lab folder on secure departmental server**
+ - Data to store here: consent forms, keys to subject IDs (identifiable data ok)
+- **Box Folder**
+ - Data to store here: behavioral data (no identifiable data!!!)
+
+
+### Data organization
+Your project folders should typically look something like this:
+- `ProjectName/Data`
+  - contains a folder for raw data - always keep a copy of the raw (i.e., unprocessed) data & keep it separate from the copy that you're using in your pipeline
+  - processed data used in following steps – should be labeled clearly
+  - this folder also contains a file documenting demographic & other summary info
+- `ProjectName/Results
+ - contains folders or files of each type of results, e.g. report, summary
+- `ProjectName/Program
+ - contains folders for code
+- `ProjectName/Output
+ - contains the outputs of program
+You are encouraged to use an organization scheme like this one. When you archive the dataset, you will be required to format it like this (or something similarly transparent in its organization), so might as well start that way. 
+
+### Archiving inactive datasets
+Before you leave the lab, you will be required to document and archive any dataset that you have collected. The dataset will be reviewed before you leave. [To add: information about where to archive data]
+
+### Data sharing
+Not only is data-sharing the right thing to do, we are actually required to do so for any dataset that was funded by the NIH. We will make these datasets publicly available within a year of publishing the first paper from the dataset. You should also be prepared to share any scripts that you used in your published processing & analysis pipeline. Currently, the best option for sharing smaller datasets seems to be the [Open Science Framework](https://osf.io/), the best option for sharing MRI datasets is [OpenFMRI](https://openfmri.org/), and I don't yet know what is the best option for sharing EEG datasets.
+
+# Funding
+
+## Allocation of expenses
+
+## NIH funding notes
+ All research funded by the NIH *must* acknowledge the grant number upon publication. This is essential for documenting that we are turning their money into research findings. We must also submit a yearly progress report describing what we have accomplished. Lab members involved in the research will be asked to contribute to the progress report.
+
