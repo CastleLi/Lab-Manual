@@ -173,22 +173,39 @@ If you encounter any problems in the course of doing research that results in a 
 ## Slack
 ## Lab wiki
 * Question: As an international student, how can I continue to work in this lab using my OPT after graduation from MU?
-* Answer: Here is the step by step procedures (2019 Spring Semester).
+* Answer: Here are the step by step procedures (2019 Spring Semester).
 
-    * Step 1: Appply for OPT. The OPT application timeline and process can be found at [here](https://international.missouri.edu/come-to-mu/students/employment/opt/index.php?utm_source=f).
+    * Step 1: Apply for OPT. The OPT application timeline and process can be found at [here](https://international.missouri.edu/come-to-mu/students/employment/opt/index.php?utm_source=f).
     
-    * Step 2: Talk with Dr. Leary about your future plan. (I suggest talking both short plan and career plan. Short plans like how many hours you want to work, when you want to start working, what specific area you hope to work on. Career plans like what you are going to do after finishing OPT from here, academic or industry)
+    * Step 2: Talk with Dr. Leary about your future plan. (I suggest talking both short plan, i.e. working hours, starting date, interest fields and etc, and career plan like what you are going to do after finishing OPT from here, academic or industry)
     
-    * Step 3: You cannot work until you get the EAD card. Tell Dr. leary as soon as possible when you get this it. Dr. Leary will tell the MOI HR to contact you. (Since the OPT process takes a long time and your card delivery date is not guaranteed, I suggest you to apply OPT early and talk about the start date with Dr. leary in advance)
+    * Step 3: You cannot work until you get the EAD card. Tell Dr. Leary as soon as possible when you get it. Dr. Leary will tell the MOI HR to contact you. (Since the OPT process takes a long time and your card delivery date is not guaranteed, I suggest you to apply OPT early and talk about the starting date with Dr. Leary in advance)
     
-    * Step 4: Do not forget to update your employement information for the International Center website. Login to [mystatus](https://mystatus.missouri.edu/), select OPT REQUEST, complete both OPT employment end date report and OPT employment report. (you need some information from Dr. Leary about employer information and your job title)
+    * Step 4: Do not forget to update your employment information for OPT status. Login to [mystatus](https://mystatus.missouri.edu/), select OPT REQUEST, complete both OPT employment end date report and OPT employment report. (you need some information from Dr. Leary about employer information and your job title)
     
-    * Step 5: Now you will receive a lot of forms from the HR, sign them and send them back. (You will be asked for a electronic version headshot photo, prepare one in advance)
+    * Step 5: Now you will receive a lot of forms from the HR, sign them and send them back. (You will be asked for an electronic version headshot photo, prepare one in advance)
     
     * Step 6: Last step is to attend a new employee registration. Welcome back to Leary - Ortho Biostats Lab!
     
 ## GitHub
 ## Outlook
+Outlook is primarily an email application, it also includes a calendar, task manager, contact manager, note taking, journal, and web browsing.
+
+Tasks can be assigned via Outlook (email), so all members are expected to check emails every day and to response throughout the week as soon as possible.
+
+## Outlook Calendar
+Outlook Calendar is within Outlook. It can help to arrange and manage meetings and events. Dr. Leary will send notifications about meeting location and time via Outlook Calendar.
+
+## Box  
+Each member will have a BOX folder named by your name. This folder contains all the materials of your projects. 
+
+The projects will have the following folders in each project folder for consistency. You must save each file with the date in the filename using the following format, “yyyymmdd”. For example, if I were saving a report for an ACL project on Aug 10, 2017 it would be saved as “Report_ACLproject_20170810.docx”. It is extremely important that the R code file matches the R workspace file – this is why putting dates in the file names are so important. Never delete old files – they should all have different names (because of the date at the end) and be placed in an “OLD” subfolder, within each project folder 
+*	Data – put all Data here, initial data, formatted data, data dictionaries etc. 
+*	Programs – put all R code here or any other code. You must save your R code each time you revise it. You must annotate all of your R code. It may be years until you need to re-visit a project (or I may need to later on). Annotate your code! 
+*	Output – put all calculated tables, figures, and other output here. You must save your R workspace here. 
+*	Reports – put all report drafts here as well as any other reporting documents or data. 
+
+
 ## Others
 
 # General policies
@@ -311,17 +328,6 @@ When you complete it, you need to email the certificate to Vicki/Director.
 2. Training for NIS/HCUP:
 
 NIS/HCUP training is located here: [website](https://www.hcup-us.ahrq.gov/tech_assist/dua.jsp). There are two versions of HCUP training courses, one is a current version, alternative is a text version. You can choose one of them. Stats volunteers will need to fill out and sign data use agreement. Training certificates and data use agreements should be sent or given to Dr. Leary or Ms. Kyeong.
-
-
-## BOX Folder Setup
-
-Each member will have a BOX folder named by your name. This folder contains all the materials of your projects. 
-
-The projects will have the following folders in each project folder for consistency. You must save each file with the date in the filename using the following format, “yyyymmdd”. For example, if I were saving a report for an ACL project on Aug 10, 2017 it would be saved as “Report_ACLproject_20170810.docx”. It is extremely important that the R code file matches the R workspace file – this is why putting dates in the file names are so important. Never delete old files – they should all have different names (because of the date at the end) and be placed in an “OLD” subfolder, within each project folder 
-*	Data – put all Data here, initial data, formatted data, data dictionaries etc. 
-*	Programs – put all R code here or any other code. You must save your R code each time you revise it. You must annotate all of your R code. It may be years until you need to re-visit a project (or I may need to later on). Annotate your code! 
-*	Output – put all calculated tables, figures, and other output here. You must save your R workspace here. 
-*	Reports – put all report drafts here as well as any other reporting documents or data. 
 
 ## File Formatting
 
